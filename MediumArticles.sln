@@ -9,7 +9,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OpenClosedPrinciple-Article
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DependencyInjection-Article11", "DependencyInjection-Article11", "{C2316990-44C6-4C5F-8EC5-8FB3122456AD}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EfCore_N+1_Problem- Article 10", "EfCore_N+1_Problem- Article 10", "{46C1C4A9-E8CF-41CE-AC25-6C7C87B0008F}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EfCore_N+1_Problem- Article10", "EfCore_N+1_Problem- Article10", "{46C1C4A9-E8CF-41CE-AC25-6C7C87B0008F}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "N+1_Problem", "N+1_Problem\N+1_Problem.csproj", "{4B465551-333B-4E8F-BC72-16E2E10D31BF}"
 EndProject
@@ -17,11 +17,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DependencyInjection", "Depe
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi", "GlobalExceptionHandling\WebApi\WebApi.csproj", "{2FC9CB95-2921-4445-AB15-BE107D8EF220}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ExceptionHandling - Article 14", "ExceptionHandling - Article 14", "{6FF1917B-B9B0-43C9-900F-AE5B9B24ABD0}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ExceptionHandling-Article 14", "ExceptionHandling-Article 14", "{6FF1917B-B9B0-43C9-900F-AE5B9B24ABD0}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BinarySearch - Article 15", "BinarySearch - Article 15", "{9C7DD02E-6AD8-41C2-93F2-094639C0993E}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BinarySearch - Article15", "BinarySearch - Article15", "{9C7DD02E-6AD8-41C2-93F2-094639C0993E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinarySearch", "BinarySearch\BinarySearch.csproj", "{6EA99109-87C7-44E9-960F-405EE8FEB7B9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinarySearch", "BinarySearch\BinarySearch.csproj", "{6EA99109-87C7-44E9-960F-405EE8FEB7B9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AutoMapper-Article20", "AutoMapper-Article20", "{F9B15A44-B3AC-4AB4-8D21-A267622544C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityMapping", "EntityMapping\EntityMapping.csproj", "{32644166-4789-4A03-8696-D730F6EE7B64}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -49,6 +53,10 @@ Global
 		{6EA99109-87C7-44E9-960F-405EE8FEB7B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6EA99109-87C7-44E9-960F-405EE8FEB7B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6EA99109-87C7-44E9-960F-405EE8FEB7B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32644166-4789-4A03-8696-D730F6EE7B64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32644166-4789-4A03-8696-D730F6EE7B64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32644166-4789-4A03-8696-D730F6EE7B64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32644166-4789-4A03-8696-D730F6EE7B64}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -59,6 +67,7 @@ Global
 		{8AB69B65-545E-4B6B-95BE-15FB11CE65C8} = {C2316990-44C6-4C5F-8EC5-8FB3122456AD}
 		{2FC9CB95-2921-4445-AB15-BE107D8EF220} = {6FF1917B-B9B0-43C9-900F-AE5B9B24ABD0}
 		{6EA99109-87C7-44E9-960F-405EE8FEB7B9} = {9C7DD02E-6AD8-41C2-93F2-094639C0993E}
+		{32644166-4789-4A03-8696-D730F6EE7B64} = {F9B15A44-B3AC-4AB4-8D21-A267622544C5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {10985016-24AB-4344-9B62-832532B3E197}
